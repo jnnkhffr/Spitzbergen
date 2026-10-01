@@ -47,3 +47,9 @@ print("Longitude shape:", arome.longitude.shape)
 
 print("\nAROME dimensions:")
 print(arome.dims)
+
+print(arome)
+print(list(arome.data_vars))
+print(arome.coords)
+print(arome.dims)
+
