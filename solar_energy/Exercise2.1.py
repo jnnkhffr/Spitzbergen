@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 
 # setting parameters
 pvfc.set_angles(25, 235)  # south-west facing panels
-pvfc.set_location(55.6804144, 12.5821649)  # near Copenhagen, Denmark
-pvfc.set_nominal_power_kw(10)
+pvfc.set_location(53.415126, 12.245004) #EP_Gaarz
+pvfc.set_nominal_power_kw(78)
 
 # setting parameters which affect clearsky forecast
-pvfc.set_default_air_temp(-5)
+pvfc.set_default_air_temp(15)
 pvfc.set_default_albedo(0.7)
 
 # generating forecast

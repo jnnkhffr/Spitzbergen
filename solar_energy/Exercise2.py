@@ -8,8 +8,8 @@ Power rating set at 4kw.
 """
 
 pvfc.set_angles(25, 180)
-pvfc.set_location(60.1576, 24.8762)
-pvfc.set_nominal_power_kw(4)
+pvfc.set_location(53.415126, 12.245004)
+pvfc.set_nominal_power_kw(78)#35000)
 
 data = pvfc.get_default_fmi_forecast()
 
