@@ -177,3 +177,5 @@ plt.legend()
 plt.tight_layout()
 
 plt.show()
+
+# next step: Die UNIS Wetterstationen mit einbauen.

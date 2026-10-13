@@ -80,12 +80,12 @@ ds
 
 
 print(ds['ws'].attrs)
-
-
-# In[100]:
-
-
 list(ds.data_vars)
+print(ds)
+print(ds.attrs)
+print(ds.coords)
+print(ds.valid_time.min().values)
+print(ds.valid_time.max().values)
 
 
 # ### Task 2
